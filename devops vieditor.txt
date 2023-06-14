@@ -1,0 +1,42 @@
+vi editor => text editor tool
+
+3 modes
+
+- command mode(delete words delete lines)
+
+- insert mode(to write content into the file we use this)
+
+	I,i,A,a,o,O
+
+- exit mode
+	press esc	
+	:wq=> write and quit
+	:w=> write
+	:q=> quit
+
+-----------------------
+
+:e! --- undo 
+x --- to remove a character where cursor stands
+shift x ---- o remove left side character
+dw - delete a word
+dd -- delete entire line
+shift d --> to delete entire words from right side
+/word ---> to search a word
+dG -- to delete all the lines below the cursor
+d1G -- to delete all the lines above the cursor
+:set nu --- to set line numbers
+:10,20d --- to delete lines from 10 to 20
+shift g --- last line
+gg --- first line
+20 shift g ---- takes you to the 20th line
+yy --- to copy
+p -- paste
+10yy --- to copy 10 lines from cursor
+:%s/devops/AwsDevops/ ---- to replace word devops with Aws devops
+
+
+
+
+
+
